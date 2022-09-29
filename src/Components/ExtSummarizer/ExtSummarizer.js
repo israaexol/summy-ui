@@ -56,7 +56,6 @@ const ExtSummarizer = () => {
                 let summ = data.summary
                 console.log(summ)
                 setSumm(summ)
-      
                 setLoading(false)
               })
               .catch((error) => {
