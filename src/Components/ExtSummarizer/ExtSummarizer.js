@@ -55,7 +55,6 @@ const ExtSummarizer = () => {
                 const data = res.data.results
                 let summ = data.summary
                 console.log(summ)
-              //   divelement.hidden = false
                 setSumm(summ)
       
                 setLoading(false)
