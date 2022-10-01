@@ -94,7 +94,7 @@ const ExtSummarizer = () => {
             return <></>
         }
         else if (isLoading == true) {
-            return <CircularProgress id='loading'/>
+            return <CircularProgress id='loading2'/>
         }
         else {
             return (

@@ -122,7 +122,9 @@
 }
 
 #loading_ext {
-    color: white;
+    color: rgba(0, 0, 0, 0.7);
+    height: 30px;
+    width: 30px;
 }
 
 #arrow {
