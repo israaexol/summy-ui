@@ -50,7 +50,7 @@ const AbsSummarizer = () => {
         if(file == null) {
             const body = { text };
             axios
-              .post('https://summy-api.herokuapp.com/summarize_abs/', body)
+              .post('https://summy-api.herokuapp.com/summarize_abs', body)
               .then((res) => {
                 const data = res.data.results
                 let summ = data.summary
